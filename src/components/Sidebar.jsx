@@ -1,7 +1,7 @@
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import {
-  Monitor, AlertTriangle, Users, Settings, LogOut, Activity
+  Monitor, AlertTriangle, Users, Settings, LogOut
 } from 'lucide-react';
 
 export default function Sidebar() {
